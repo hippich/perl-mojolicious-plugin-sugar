@@ -6,7 +6,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 use Scalar::Util qw(reftype);
 use Data::Types qw(is_string);
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 # ABSTRACT: Some sweet stuff for Mojolicious
 

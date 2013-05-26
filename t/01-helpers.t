@@ -17,7 +17,7 @@ get '/set-flash' => sub {
 
 get '/test-params' => sub {
   my $self = shift;
-  $self->render_text( $self->params->to_hash->{test} );
+  $self->render( text => $self->params->to_hash->{test} );
 };
 
 my $t = Test::Mojo->new;
