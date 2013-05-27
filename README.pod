@@ -1,12 +1,10 @@
-=pod
-
 =head1 NAME
 
 Mojolicious::Plugin::Sugar - Some sweet stuff for Mojolicious
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
